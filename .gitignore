@@ -1,0 +1,34 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/annexe/annex.aux
+/annexe/annexe.aux
+/annexe/annexe.log
+/annexe/annexe_mise_en_place.aux
+
+/biblio/biblio.aux
+/biblio/biblio.log
+
+/conclusion/conclusion.aux
+/conclusion/conclusion.log
+/conclusion/conclusion_reduit.aux
+
+/dedicace/dedicace.aux
+
+/dossier/fichier.log
+/dossier/fichier2.log
+
+/glossaire/glossaire.aux
+/glossaire/glossaire.log
+/glossaire/glossaire_reduit.aux
+/glossaire/glossaire_reduit.log
+
+/introduction/introduction.aux
+
+/remerciements/remerciements.aux
+
+/resume/resume_abstract.aux
+
+memoire_vincent.aux
+memoire_vincent.glo
+memoire_vincent.log

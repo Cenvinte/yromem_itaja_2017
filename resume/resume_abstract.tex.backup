@@ -1,0 +1,35 @@
+\resume
+
+\begin{abstract}
+  %Résumé en français
+  \paragraph{}
+    Ce projet de fin de formation a pour objet la conception et la réalisation de ITAJA, une solution intégrée de gestion d’un commerce. ITAJA est une solution de type \gls{SAAS}.
+    
+  \paragraph{}
+    Le principal objectif du système est d’aider les managers dans leur prise de décision en leur fournissant en temps réel des indicateurs pertinents. De manière spécifique, la solution développée permet la saisie des données depuis un terminal à bas coût, le stockage des données dans une base de données sécurisée dans le cloud, l’exportation des données au format Excel pour une exploitation ultérieure et enfin la mise à disposition d’un dashboard numérique sur l’ensemble de l’activité.
+    
+  \paragraph{}
+    Le présent rapport résume le déroulement de toutes les étapes du projet.
+    
+  \paragraph{}
+  \textbf{Mots clés}: \emph{comptabilité}, \emph{commerce}, \emph{stock}, \emph{indicateurs}, \emph{comptes}, \emph{SAAS}
+\end{abstract}
+
+
+
+\selectlanguage{english}
+
+\begin{abstract}
+  %Résumé en anglais
+  \paragraph{}
+    This project of the end of formation has for object the conception and the realization of ITAJA, an integrated solution of management of a trade. ITAJA is a solution of type \gls{SAAS}.
+    
+  \paragraph{}
+    The main objective of the system is to help the managers in their decision-making by supplying them in real time relevant indicators. In a specific way, the developed solution allows the data capture since a low-cost terminal, a storage of the data in a database reassured in the cloud, the export of the data at the format Excel for a later exploitation and finally the provision of a digital dashboard on the whole activity.
+    
+  \paragraph{}
+    The present report summarizes the progress of all the stages of the project.
+    
+  \paragraph{}
+  \textbf{Key words}: \emph{accouting}, \emph{trade}, \emph{stock}, \emph{indicators}, \emph{accouts}, \emph{SAAS}
+\end{abstract}

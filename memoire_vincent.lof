@@ -1,0 +1,20 @@
+\select@language {english}
+\select@language {french}
+\select@language {french}
+\select@language {english}
+\select@language {french}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Contexte de l'\IeC {\'e}tude}{5}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de IFRI\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Logo de QANBIO\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Logo de ITAJA\relax }}{7}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Analyse informatique}{10}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de d\IeC {\'e}ploiement\relax }}{11}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conception et r\IeC {\'e}alisation}{12}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Service Oriented Architecture (SOA)\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur (MVC)\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Logo de Angular\relax }}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo de TypeScript\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo de Bootstrap\relax }}{16}{figure.caption.13}
