@@ -1,34 +1,56 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/annexe/annex.aux
-/annexe/annexe.aux
-/annexe/annexe.log
-/annexe/annexe_mise_en_place.aux
+/report/annexe/annex.aux
+/report/annexe/annexe.aux
+/report/annexe/annexe.log
+/report/annexe/annexe_mise_en_place.aux
 
-/biblio/biblio.aux
-/biblio/biblio.log
+/report/biblio/biblio.aux
+/report/biblio/biblio.log
 
-/conclusion/conclusion.aux
-/conclusion/conclusion.log
-/conclusion/conclusion_reduit.aux
+/report/conclusion/conclusion.aux
+/report/conclusion/conclusion.log
+/report/conclusion/conclusion_reduit.aux
 
-/dedicace/dedicace.aux
+/report/dedicace/dedicace.aux
 
-/dossier/fichier.log
-/dossier/fichier2.log
+/report/dossier/fichier.log
+/report/dossier/fichier2.log
 
-/glossaire/glossaire.aux
-/glossaire/glossaire.log
-/glossaire/glossaire_reduit.aux
-/glossaire/glossaire_reduit.log
+/report/glossaire/glossaire.aux
+/report/glossaire/glossaire.tex.backup
+/report/glossaire/glossaire.log
+/report/glossaire/glossaire_reduit.aux
+/report/glossaire/glossaire_reduit.log
 
-/introduction/introduction.aux
+/report/introduction/introduction.aux
+/report/introduction/introduction.tex.backup
 
-/remerciements/remerciements.aux
+/report/remerciements/remerciements.aux
 
-/resume/resume_abstract.aux
+/report/resume/resume_abstract.aux
+/report/resume/resume_abstract.tex.backup
 
-memoire_vincent.aux
-memoire_vincent.glo
-memoire_vincent.log
+/report/memoire_vincent.aux
+/report/memoire_vincent.glo
+/report/memoire_vincent.log
+/report/memoire_vincent.glsdefs
+/report/memoire_vincent.idx
+/report/memoire_vincent.ist
+/report/memoire_vincent.lof
+/report/memoire_vincent.lot
+/report/memoire_vincent.maf
+/report/memoire_vincent.mtc
+/report/memoire_vincent.mtc0
+/report/memoire_vincent.out
+/report/memoire_vincent.tex.backup
+/report/memoire_vincent.toc
+
+/presentation/presentation.aux
+/presentation/presentation.log
+/presentation/presentation.nav
+/presentation/presentation.out
+/presentation/presentation.snm
+/presentation/presentation.tex.backup
+/presentation/presentation.toc

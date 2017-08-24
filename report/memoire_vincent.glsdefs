@@ -1,0 +1,420 @@
+\ifglsentryexists{UAC}{}%
+{%
+\gls@defglossaryentry{UAC}%
+{%
+name={UAC},%
+sort={UAC},%
+type={main},%
+first={Universit\IeC {\'e} d'Abomey-Calavi\glsspace (UAC)},%
+firstplural={Universit\IeC {\'e} d'Abomey-Calavi\glsspace (UAC)},%
+text={UAC},%
+plural={UAC},%
+description={Université d'Abomey-Calavi},%
+descriptionplural={Université d'Abomey-Calavi\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universit\IeC {\'e} d'Abomey-Calavi},%
+longplural={Universit\IeC {\'e} d'Abomey-Calavi},%
+short={UAC},%
+shortplural={UAC},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IFRI}{}%
+{%
+\gls@defglossaryentry{IFRI}%
+{%
+name={IFRI},%
+sort={IFRI},%
+type={main},%
+first={Institut de Formation et de Recherche en Informatique\glsspace (IFRI)},%
+firstplural={Institut de Formation et de Recherche en Informatique\glsspace (IFRI)},%
+text={IFRI},%
+plural={IFRI},%
+description={Institut de Formation et de Recherche en Informatique},%
+descriptionplural={Institut de Formation et de Recherche en Informatique\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institut de Formation et de Recherche en Informatique},%
+longplural={Institut de Formation et de Recherche en Informatique},%
+short={IFRI},%
+shortplural={IFRI},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MVC}{}%
+{%
+\gls@defglossaryentry{MVC}%
+{%
+name={MVC},%
+sort={MVC},%
+type={main},%
+first={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur\glsspace (MVC)},%
+firstplural={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur\glsspace (MVC)},%
+text={MVC},%
+plural={MVC},%
+description={Model-View-Controller, en francais Modèle-Vue-Contrôleur},%
+descriptionplural={Model-View-Controller, en francais Modèle-Vue-Contrôleur\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur},%
+longplural={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur},%
+short={MVC},%
+shortplural={MVC},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SOA}{}%
+{%
+\gls@defglossaryentry{SOA}%
+{%
+name={SOA},%
+sort={SOA},%
+type={main},%
+first={Service Oriented Architecture, en francais Architecture Orient\IeC {\'e}e Service\glsspace (SOA)},%
+firstplural={Service Oriented Architecture, en francais Architecture Orient\IeC {\'e}e Service\glsspace (SOA)},%
+text={SOA},%
+plural={SOA},%
+description={Service Oriented Architecture, en francais Architecture Orientée Service},%
+descriptionplural={Service Oriented Architecture, en francais Architecture Orientée Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Oriented Architecture, en francais Architecture Orient\IeC {\'e}e Service},%
+longplural={Service Oriented Architecture, en francais Architecture Orient\IeC {\'e}e Service},%
+short={SOA},%
+shortplural={SOA},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SAAS}{}%
+{%
+\gls@defglossaryentry{SAAS}%
+{%
+name={SAAS},%
+sort={SAAS},%
+type={main},%
+first={Software As A Service\glsspace (SAAS)},%
+firstplural={Software As A Service\glsspace (SAAS)},%
+text={SAAS},%
+plural={SAAS},%
+description={Software As A Service},%
+descriptionplural={Software As A Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software As A Service},%
+longplural={Software As A Service},%
+short={SAAS},%
+shortplural={SAAS},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JS}{}%
+{%
+\gls@defglossaryentry{JS}%
+{%
+name={JS},%
+sort={JS},%
+type={main},%
+first={JavaScript\glsspace (JS)},%
+firstplural={JavaScript\glsspace (JS)},%
+text={JS},%
+plural={JS},%
+description={JavaScript},%
+descriptionplural={JavaScript\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript},%
+longplural={JavaScript},%
+short={JS},%
+shortplural={JS},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTML}{}%
+{%
+\gls@defglossaryentry{HTML}%
+{%
+name={HTML},%
+sort={HTML},%
+type={main},%
+first={Hypertext Markup Language\glsspace (HTML)},%
+firstplural={Hypertext Markup Language\glsspace (HTML)},%
+text={HTML},%
+plural={HTML},%
+description={Hypertext Markup Language},%
+descriptionplural={Hypertext Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hypertext Markup Language},%
+longplural={Hypertext Markup Language},%
+short={HTML},%
+shortplural={HTML},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CSS}{}%
+{%
+\gls@defglossaryentry{CSS}%
+{%
+name={CSS},%
+sort={CSS},%
+type={main},%
+first={Cascading Style Sheets\glsspace (CSS)},%
+firstplural={Cascading Style Sheets\glsspace (CSS)},%
+text={CSS},%
+plural={CSS},%
+description={Cascading Style Sheets},%
+descriptionplural={Cascading Style Sheets\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cascading Style Sheets},%
+longplural={Cascading Style Sheets},%
+short={CSS},%
+shortplural={CSS},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{DOM}{}%
+{%
+\gls@defglossaryentry{DOM}%
+{%
+name={DOM},%
+sort={DOM},%
+type={main},%
+first={Document Object Model\glsspace (DOM)},%
+firstplural={Document Object Model\glsspace (DOM)},%
+text={DOM},%
+plural={DOM},%
+description={Document Object Model},%
+descriptionplural={Document Object Model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Document Object Model},%
+longplural={Document Object Model},%
+short={DOM},%
+shortplural={DOM},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XPath}{}%
+{%
+\gls@defglossaryentry{XPath}%
+{%
+name={XPath},%
+sort={XPath},%
+type={main},%
+first={Xpath est un langage qui permet de localiser une portion d'un document XML\glsspace (XPath)},%
+firstplural={Xpath est un langage qui permet de localiser une portion d'un document XML\glsspace (XPath)},%
+text={XPath},%
+plural={XPath},%
+description={Xpath est un langage qui permet de localiser une portion d'un document XML},%
+descriptionplural={Xpath est un langage qui permet de localiser une portion d'un document XML\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Xpath est un langage qui permet de localiser une portion d'un document XML},%
+longplural={Xpath est un langage qui permet de localiser une portion d'un document XML},%
+short={XPath},%
+shortplural={XPath},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Ajax}{}%
+{%
+\gls@defglossaryentry{Ajax}%
+{%
+name={Ajax},%
+sort={Ajax},%
+type={main},%
+first={Asynchronous JavaScript and XML\glsspace (Ajax)},%
+firstplural={Asynchronous JavaScript and XML\glsspace (Ajax)},%
+text={Ajax},%
+plural={Ajax},%
+description={Asynchronous JavaScript and XML},%
+descriptionplural={Asynchronous JavaScript and XML\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Asynchronous JavaScript and XML},%
+longplural={Asynchronous JavaScript and XML},%
+short={Ajax},%
+shortplural={Ajax},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PME}{}%
+{%
+\gls@defglossaryentry{PME}%
+{%
+name={PME},%
+sort={PME},%
+type={main},%
+first={Petite et Moyenne Entreprise\glsspace (PME)},%
+firstplural={Petite et Moyenne Entreprise\glsspace (PME)},%
+text={PME},%
+plural={PME},%
+description={Petite et Moyenne Entreprise},%
+descriptionplural={Petite et Moyenne Entreprise\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Petite et Moyenne Entreprise},%
+longplural={Petite et Moyenne Entreprise},%
+short={PME},%
+shortplural={PME},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TPE}{}%
+{%
+\gls@defglossaryentry{TPE}%
+{%
+name={TPE},%
+sort={TPE},%
+type={main},%
+first={Tr\IeC {\`e}s Petite Entreprise\glsspace (TPE)},%
+firstplural={Tr\IeC {\`e}s Petite Entreprise\glsspace (TPE)},%
+text={TPE},%
+plural={TPE},%
+description={Très Petite Entreprise},%
+descriptionplural={Très Petite Entreprise\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tr\IeC {\`e}s Petite Entreprise},%
+longplural={Tr\IeC {\`e}s Petite Entreprise},%
+short={TPE},%
+shortplural={TPE},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JSP}{}%
+{%
+\gls@defglossaryentry{JSP}%
+{%
+name={JSP},%
+sort={JSP},%
+type={main},%
+first={JavaServer Pages\glsspace (JSP)},%
+firstplural={JavaServer Pages\glsspace (JSP)},%
+text={JSP},%
+plural={JSP},%
+description={JavaServer Pages},%
+descriptionplural={JavaServer Pages\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaServer Pages},%
+longplural={JavaServer Pages},%
+short={JSP},%
+shortplural={JSP},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,15 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usetheme{Antibes}
+\usecolortheme[named=Maroon]{structure}
+
+\title[Présentation de ]{Itaja : }
+\author{Vincent-Béni ZOSSOU}
+
+\begin{document}
+ 
+  \begin{frame}
+    \titlepage
+  \end{frame}
+
+\end{document}
