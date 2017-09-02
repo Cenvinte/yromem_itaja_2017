@@ -1,7 +1,66 @@
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\beamer@partpages {1}{1}}
-\headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\beamer@sectionpages {1}{1}}
-\headcommand {\beamer@documentpages {1}}
-\headcommand {\def \inserttotalframenumber {1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{Intoduction}{3}{Intoduction}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Probl\IeC {\'e}matique}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/5}{Probl\IeC {\'e}matique}{0}}
+\headcommand {\beamer@framepages {3}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Objectif global}}\headcommand {\beamer@subsectionpages {3}{5}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Objectif global}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{7}{Objectifs sp\IeC {\'e}cifiques}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {1}{3}{1}{7/10}{Objectifs sp\IeC {\'e}cifiques}{0}}
+\headcommand {\beamer@framepages {7}{10}}
+\headcommand {\sectionentry {2}{Contexte de l'\IeC {\'e}tude}{11}{Contexte de l'\IeC {\'e}tude}{0}}
+\headcommand {\beamer@sectionpages {3}{10}}
+\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\slideentry {2}{0}{1}{11/12}{}{0}}
+\headcommand {\beamer@framepages {11}{12}}
+\headcommand {\sectionentry {3}{Conception de la plateforme et technologies utilis\IeC {\'e}es}{13}{Conception de la plateforme et technologies utilis\IeC {\'e}es}{0}}
+\headcommand {\beamer@sectionpages {11}{12}}
+\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{13}{Conception de la plateforme}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\slideentry {3}{1}{1}{13/13}{Conception de la plateforme}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {3}{1}{2}{14/14}{Conception de la plateforme}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {3}{1}{3}{15/15}{Conception de la plateforme}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {3}{1}{4}{16/16}{Conception de la plateforme}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{17}{Technologies utilis\IeC {\'e}s}}\headcommand {\beamer@subsectionpages {13}{16}}
+\headcommand {\slideentry {3}{2}{1}{17/17}{Technologies utilis\IeC {\'e}s}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{18}{Autres outils}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {3}{3}{1}{18/18}{Autres outils}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\sectionentry {4}{R\IeC {\'e}sultats et Perspectives}{19}{R\IeC {\'e}sultats et Perspectives}{0}}
+\headcommand {\beamer@sectionpages {13}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{19}{R\IeC {\'e}sultats}}\headcommand {\beamer@subsectionpages {19}{18}}
+\headcommand {\slideentry {4}{1}{1}{19/19}{R\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {4}{1}{2}{20/20}{R\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {4}{1}{3}{21/21}{R\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {4}{1}{4}{22/22}{R\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{23}{Perspectives}}\headcommand {\beamer@subsectionpages {19}{22}}
+\headcommand {\slideentry {4}{2}{1}{23/25}{Perspectives}{0}}
+\headcommand {\beamer@framepages {23}{25}}
+\headcommand {\sectionentry {5}{Conclusion }{26}{Conclusion }{0}}
+\headcommand {\beamer@sectionpages {19}{25}}
+\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\slideentry {5}{0}{1}{26/29}{}{0}}
+\headcommand {\beamer@framepages {26}{29}}
+\headcommand {\slideentry {5}{0}{2}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\beamer@subsectionpages {26}{30}}
+\headcommand {\beamer@sectionpages {26}{30}}
+\headcommand {\beamer@documentpages {30}}
+\headcommand {\def \inserttotalframenumber {19}}

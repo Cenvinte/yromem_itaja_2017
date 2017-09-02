@@ -30,6 +30,13 @@
   
   \begin{figure}[H]
     \begin{center}
+      \includegraphics[scale=0.2, width=18cm]{images/qshops.png}
+      \caption{Tableau des points de ventes}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[H]
+    \begin{center}
       \includegraphics[scale=0.2, width=18cm]{images/devAngularTypeScript.png}
       \caption{Utilisation de Typescript avec Angular}
     \end{center}

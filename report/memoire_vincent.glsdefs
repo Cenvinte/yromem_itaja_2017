@@ -58,36 +58,6 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{MVC}{}%
-{%
-\gls@defglossaryentry{MVC}%
-{%
-name={MVC},%
-sort={MVC},%
-type={main},%
-first={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur\glsspace (MVC)},%
-firstplural={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur\glsspace (MVC)},%
-text={MVC},%
-plural={MVC},%
-description={Model-View-Controller, en francais Modèle-Vue-Contrôleur},%
-descriptionplural={Model-View-Controller, en francais Modèle-Vue-Contrôleur\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur},%
-longplural={Model-View-Controller, en francais Mod\IeC {\`e}le-Vue-Contr\IeC {\^o}leur},%
-short={MVC},%
-shortplural={MVC},%
-counter={page},%
-parent={},%
-%
-}%
-}%
 \ifglsentryexists{SOA}{}%
 {%
 \gls@defglossaryentry{SOA}%
@@ -268,66 +238,6 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{XPath}{}%
-{%
-\gls@defglossaryentry{XPath}%
-{%
-name={XPath},%
-sort={XPath},%
-type={main},%
-first={Xpath est un langage qui permet de localiser une portion d'un document XML\glsspace (XPath)},%
-firstplural={Xpath est un langage qui permet de localiser une portion d'un document XML\glsspace (XPath)},%
-text={XPath},%
-plural={XPath},%
-description={Xpath est un langage qui permet de localiser une portion d'un document XML},%
-descriptionplural={Xpath est un langage qui permet de localiser une portion d'un document XML\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Xpath est un langage qui permet de localiser une portion d'un document XML},%
-longplural={Xpath est un langage qui permet de localiser une portion d'un document XML},%
-short={XPath},%
-shortplural={XPath},%
-counter={page},%
-parent={},%
-%
-}%
-}%
-\ifglsentryexists{Ajax}{}%
-{%
-\gls@defglossaryentry{Ajax}%
-{%
-name={Ajax},%
-sort={Ajax},%
-type={main},%
-first={Asynchronous JavaScript and XML\glsspace (Ajax)},%
-firstplural={Asynchronous JavaScript and XML\glsspace (Ajax)},%
-text={Ajax},%
-plural={Ajax},%
-description={Asynchronous JavaScript and XML},%
-descriptionplural={Asynchronous JavaScript and XML\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Asynchronous JavaScript and XML},%
-longplural={Asynchronous JavaScript and XML},%
-short={Ajax},%
-shortplural={Ajax},%
-counter={page},%
-parent={},%
-%
-}%
-}%
 \ifglsentryexists{PME}{}%
 {%
 \gls@defglossaryentry{PME}%
@@ -413,6 +323,156 @@ long={JavaServer Pages},%
 longplural={JavaServer Pages},%
 short={JSP},%
 shortplural={JSP},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTTP}{}%
+{%
+\gls@defglossaryentry{HTTP}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={main},%
+first={HyperText Transfer Protocol\glsspace (HTTP)},%
+firstplural={HyperText Transfer Protocol\glsspace (HTTP)},%
+text={HTTP},%
+plural={HTTP},%
+description={HyperText Transfer Protocol},%
+descriptionplural={HyperText Transfer Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Transfer Protocol},%
+longplural={HyperText Transfer Protocol},%
+short={HTTP},%
+shortplural={HTTP},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UML}{}%
+{%
+\gls@defglossaryentry{UML}%
+{%
+name={UML},%
+sort={UML},%
+type={main},%
+first={Unified Modeling Language\glsspace (UML)},%
+firstplural={Unified Modeling Language\glsspace (UML)},%
+text={UML},%
+plural={UML},%
+description={Unified Modeling Language},%
+descriptionplural={Unified Modeling Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modeling Language},%
+longplural={Unified Modeling Language},%
+short={UML},%
+shortplural={UML},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XML}{}%
+{%
+\gls@defglossaryentry{XML}%
+{%
+name={XML},%
+sort={XML},%
+type={main},%
+first={Extensible Markup Language\glsspace (XML)},%
+firstplural={Extensible Markup Language\glsspace (XML)},%
+text={XML},%
+plural={XML},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Language},%
+short={XML},%
+shortplural={XML},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JSON}{}%
+{%
+\gls@defglossaryentry{JSON}%
+{%
+name={JSON},%
+sort={JSON},%
+type={main},%
+first={JavaScript Object Notation\glsspace (JSON)},%
+firstplural={JavaScript Object Notation\glsspace (JSON)},%
+text={JSON},%
+plural={JSON},%
+description={JavaScript Object Notation},%
+descriptionplural={JavaScript Object Notation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript Object Notation},%
+longplural={JavaScript Object Notation},%
+short={JSON},%
+shortplural={JSON},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MVC}{}%
+{%
+\gls@defglossaryentry{MVC}%
+{%
+name={MVC},%
+sort={MVC},%
+type={main},%
+first={model-view-controller\glsspace (MVC)},%
+firstplural={model-view-controller\glsspace (MVC)},%
+text={MVC},%
+plural={MVC},%
+description={model-view-controller},%
+descriptionplural={model-view-controller\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={model-view-controller},%
+longplural={model-view-controller},%
+short={MVC},%
+shortplural={MVC},%
 counter={page},%
 parent={},%
 %

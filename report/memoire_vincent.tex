@@ -15,7 +15,7 @@
 \encadrants{M. Fréjus \textbf{LALEYE}\\ M. Paterne \textbf{GAYE}}
 
 % Un seul encadrant décommenté la ligne suivante
-% \encadrants{Mr Judicaël \textbf{TANDJIEKPON}}
+% \encadrants{}
 
 \hypersetup{
  pdftitle={Itaja-Manager},
@@ -88,7 +88,7 @@
 	\end{center}
       \end{figure}
       \paragraph{}
-	L’\textbf{\gls{IFRI}} est une école de l'\gls{UAC} crée en 2000. Elle a pour vocation de former des apprenants capables de devenir des acteurs pour des solutions informatiques aux différents problèmes de développement. L’institut accueille des étudiants de toute nationalité et a la vocation de devenir assez rapidement un institut sous-régional de référence. Son directeur actuel est le \textbf{Pr. Eugène EZIN}.
+	L’\textbf{\gls{IFRI}} est une école de l'\gls{UAC} qui a pour vocation de former des apprenants capables de devenir des acteurs pour des solutions informatiques aux différents problèmes de développement. L’institut accueille des étudiants de toute nationalité et a la vocation de devenir assez rapidement un institut sous-régional de référence. Son directeur actuel est le \textbf{Pr. Eugène EZIN}.
       \paragraph{}
 	Les enseignements offerts par l’\gls{IFRI} sont en continuelle adaptation à notre environnement social et comporte actuellement la licence en Génie Logiciel et en Sécurité Informatique, la classe préparatoire au master et le master de recherche.
       \paragraph{}
@@ -126,11 +126,11 @@
       \subsection{Problématique}
 	Les \gls{PME} et \gls{TPE} constituent l’essentiel du tissu économique du Bénin et de la sous-région. Compte tenu de leurs organisations caractérisées par des ressources limitées, en particulier en personnel, ces entreprises ont tout à gagner dans une dématérialisation de leurs processus métiers. Cependant, force est de constater que ce n’est pas le cas. Ceci s’explique de manière empirique par les coûts énormes engendrés par l’informatisation.
 	\\En effet, pour prendre le cas d’un processus classique qui est la comptabilité dans une PME/TPE, les investissements s’élèvent à plusieurs centaines de milliers de francs incluant d’une part l’acquisition d’un ordinateur et d’une licence logicielle. À ces coûts s’ajoutent le recrutement et la formation d’un personnel qualifié. Enfin, compte tenu de l’environnement béninois et ouest-africain marqué par des variations fluctuants des caractéristiques nominales de l'électricité et des coupures régulières, il faut rajouter les coûts d’acquisition d’un groupe électrogène et d’un régulateur électrique.
-	\\Tout ceci constitue autant de barrières aux projets de transformation numérique dans les  PME et TPE au Bénin et dans la sous-région. C’est pour répondre à ce besoin que QANBIO a intié le développement de ITAJA une solution \gls{SAAS} de \textbf{gestion des comptes d’un commerce}.
+	\\Tout ceci constitue autant de barrières aux projets de transformation numérique dans les PME et TPE au Bénin et dans la sous-région. C’est pour répondre à ce besoin que QANBIO a intié le développement de ITAJA une solution \gls{SAAS} de \textbf{gestion d’un commerce}.
 	
 	\begin{figure}[H]
 	  \begin{center}
-	    \includegraphics[scale=0.5, width=4cm]{images/logoITAJA.png}
+	    \includegraphics[scale=0.5, width=4cm]{images/logoItaja.png}
 	    \caption{Logo de ITAJA}
 	  \end{center}
 	\end{figure}
@@ -143,35 +143,141 @@
 	    \item[.] une application \textbf{backend} Java EE déployée sur un serveur Apache Tomcat.
 	  \end{itemize}
 	  
-	  L’application "backend" est un pool de web-services permettant d’interagir avec la base de données de manière sécurisée; tandis que l’application Android est utilisée à la caisse afin de permettre aux vendeurs d’enregistrer en temps réels les opérations effectuées.
+	  L’application backend est un pool de web-services permettant d’interagir avec la base de données de manière sécurisée; tandis que l’application Android est utilisée dans les points de ventes afin de permettre aux collaborateurs d’enregistrer en temps réels les opérations effectuées (ventes, approvisionnements, etc).
 	  
 	  \begin{itemize}
 	    \item[\ding{42}] \textbf{Aspects positifs}\\
 	      La plateforme était opérationnelle et en phase de test grandeur nature auprès d’une entreprise cotonoise.
 
 	    \item[\ding{42}] \textbf{Limites}\\
-	      Il manquait une application permettant aux managers de gérer les données de leur entreprise et de consulter les statistiques liées à leurs activités.
+	      Il manquait une application front office aux managers ou gestionnaires des boutiques. Après l'enregistrement des opérations grâce à l'application Android, il faudrait un outil permettant d'exploiter aisément les données en termes de stocks et de statistiques financières des points de ventes et magasins.
 	 \end{itemize}
 	
-
 	\subsection{Objectifs}
-	  Afin de mieux structurer le travail et de faciliter les choses, nous avons divisé le projet en des objectifs spécifiques à savoir :
+	  L’objectif global visé par ce travail est de réaliser une application complète Web fonctionnelle qui puisse permettre aux propriétaires de magasins de pouvoir suivre l’évolution de leurs stocks d’une part, et d’autre part l’évolution des statistiques financières (chiffre d’affaires, ventes ...).
+	  \\Afin de mieux structurer le travail et de faciliter les choses, nous avons divisé le projet en des objectifs spécifiques à savoir :
 	  \begin{itemize}
-	    \item[•] proposer une plateforme complète de suivi en temps réel des entrées et sorties (approvisionnements et ventes);
-	    \item[•] proposer une plateforme complète de suivi en temps réel du personnel, des approvisionnements et des inventaires;
+	    \item[•] proposer une plateforme de suivi en temps réel des entrées et sorties (approvisionnements et ventes);
+	    \item[•] proposer une plateforme de suivi en temps réel du personnel, des approvisionnements et des inventaires;
 	    \item[•] proposer des diagrammes d'évolution du chiffre d'affaires et des indicateurs d'actions afin de guider dans la prise de décisions et l'orientation des domaines d'investissements;
 	    \item[•] proposer des diagrammes des meilleurs zones de ventes et des produits les plus vendus afin de cibler les zones, produits et populations favorables.
 	  \end{itemize}
      
-	
       \section{Conclusion}
-      Au terme de ce chapitre, il convient de préciser que la population directement visée est les commerçants et propriétaires de magasins. Et pour gérer efficacement leur commerce et accroître leur chiffre d'affaires, nous proposons une application Web qui aura pour objectif répondre aux différents besoins dudit service. Dans le chapitre suivant nous parlerons de l'analyse informatique du problème.
+      Au terme de ce chapitre, il convient de préciser que la population directement visée est les commerçants en général et les propriétaires de magasins. Et pour gérer efficacement leur commerce et accroître leur chiffre d'affaires, nous proposons une application Web qui aura pour objectif répondre aux différents besoins dudit service, et ce à un coût vraiment réduit. Dans le chapitre suivant nous parlerons de l'analyse informatique du problème.
 
     \chapter{Analyse informatique}
       \section{Introduction}
-	La phase d'analyse d'un projet informatique consiste à déterminer la description du besoin pour élaborer la solution technique. L'analyse se positionne comme une interface entre les utilisateurs demandeurs de services et des informaticiens au vocabulaire spécifié.
+	La phase d'analyse d'un projet informatique consiste à déterminer la description du besoin pour élaborer la solution technique. L'analyse se positionne comme une interface entre les utilisateurs demandeurs de services et des informaticiens au vocabulaire spécifié. À la fin de ce chapitre nous devrons être capable de répondre à cette question : \textbf{Que fait le système}? \cite{ib}
 	
-      \section{Le diagramme de séquences}
+      \section{Le diagramme des cas d'utilisation}
+	Un diagramme des cas d'utilisation représente comme son nom l'indique les cas d'utilisation, c'est-à-dire les fonctionnalités ou lots d'actions que devront réaliser nos acteurs (utilisateurs, gestionnaires). Le diagramme des cas d'utilisation met donc en évidence de quelle façon les acteurs utiliseront le logiciel : \textbf{qui} doit pouvoir faire \textbf{quoi}? \cite{uml}
+	\\Voici un petit tableau qui récapitule les différents besoins des acteurs:
+	
+	\begin{table}[H]
+	  \begin{center}
+	    \begin{tabular}{|p{4cm}|l|p{9cm}l|}
+	      \hline
+		\textbf{Acteurs} & \textbf{Rôles} \\
+	      \hline
+		Utilisateur & Ajouter une vente et une dépense \\
+	      \hline
+		Gestionnaire &  
+		\begin{minipage}{12cm}
+		  \begin{itemize}
+		    \item Visualiser les diagrammes des statistiques financières ;
+		    \item Visualiser les tableaux des opérations ;
+		    \item Manipuler les collaborateurs et les points de ventes
+		  \end{itemize}
+		 \end{minipage}\\
+		 \hline
+	    \end{tabular}
+	    \caption{Tableau récapitulatifs des besoins globaux}
+	  \end{center}
+	\end{table}
+
+	\begin{figure}[H]
+	  \begin{center}
+	    \includegraphics[scale=0.7]{images/diagramUserCase.png}
+	    \caption{Diagramme des cas d'utilisation}
+	  \end{center}
+	\end{figure}
+	  
+	  \textbf{Description textuelle des cas d'utilisation :}\\
+	  Nous avons décidé de définir ici trois cas d'utilisation et le fonctionnement du système.
+	  \begin{enumerate}
+	    \item[•] Cas numéro 1:\\
+	      \textbf{Nom :} visualiser les diagrammes des statistiques financières\\
+	      \textbf{Description :} la visualisation les diagrammes de statistiques financières doit être disponible pour tous les utilisateurs.\\ 
+	      \textbf{Pré-condition :} être utilisateur de Itaja, être authentifié et disposer des droits d'un gestionnaire\\
+	      \textbf{Démarrage :} le gestionnaire a demandé la page de visualisation des diagrammes de statistiques\\
+	      \textbf{Scénario principal :}
+	      \begin{enumerate}
+		\item L'utilisateur arrive sur la page d'accueil.
+		\item L'utilisateur clique sur le menu 'tableau de bord'.
+		\item Le système demande d'entrer la période dont vous souhaitez visualiser les données.
+		\item L'utilisateur entre la période.
+		\item Le système affiche les statistiques de la période concernée.
+	      \end{enumerate}
+	     \textbf{Scénario d'erreur :} la période saisie par l'utilisateur n'existe pas dans les données disponibles\\
+		Le système affiche un message d'erreur.
+	      
+	    \item[•] Cas numéro 2:\\
+	      \textbf{Nom :} visualiser les tableaux des opérations effectuées (ventes, dépenses)\
+		\textbf{Description :} un gestionnaire est appelé à suivre les opérations effectuées dans son (ou ses) point(s) de ventes\\ 
+		\textbf{Pré-condition :} être utilisateur de Itaja, être authentifié et disposer des droits d'un gestionnaire\\
+		\textbf{Démarrage :} le gestionnaire a demandé la page de visualisation du tableau d'une opération\\
+		\textbf{Scénario principal :}
+		\begin{enumerate}
+		  \item L'utilisateur arrive sur la page d'accueil.
+		  \item L'utilisateur clique sur le menu correspondant à l'opération dont il souhaite visualiser le tableau.
+		  \item Le système affiche le tableau demandé.
+		\end{enumerate}
+		
+	     \item[•] Cas numéro 3:\\
+	      \textbf{Nom :} Ajout d'une opération\\
+		\textbf{Description :} un caissier est appelé à enregistrer les opérations effectuées dans son point de ventes\\ 
+		\textbf{Pré-condition :} être utilisateur de Itaja\\
+		\textbf{Démarrage :} l'utilisateur a demandé la page d'enregistrement d'une opération\\
+		\textbf{Scénario principal :}
+		\begin{enumerate}
+		  \item L'utilisateur ouvre son application Android.
+		  \item L'utilisateur clique sur le menu correspondant à l'opération qu'il veut enregistrer.
+		  \item Le système affiche le formulaire correspondant à cette opération.
+		  \item L'utilisateur renseigne tous les champs demandés.
+		  \item L'utilisateur appuie sur le bouton Valider.
+		  \item Le système enregistre l'opération et affiche un message de succès.
+		  \item Le système retourne au menu d'accueil.
+		\end{enumerate}
+	      \textbf{Scénario d'erreur :} l'utilisateur n'a pas saisi tous les champs du formulaire\\
+		Le système affiche un message d'erreur et le renvoie vers le formulaire concerné.
+		
+	     \item[•] Cas numéro 4:\\
+	      \textbf{Nom :} Fonctionnement global du système\\
+		\textbf{Démarrage :} Un utilisateur fait une requête quelconque\\
+		\textbf{Scénario principal :}
+		\begin{enumerate}
+		  \item L'utilisateur arrive sur la page d'accueil.
+		  \item L'utilisateur fait une requête.
+		  \item La requête est transmise à un serveur Linux, comportant Apache et sur lequel est embarquée la WebApp.
+		  \item Ce serveur traite la requête, et la retransmet à un second serveur Linux comportant également Apache et MySQL et sur lequel sont embarqués les WebServices.
+		  \item La requête est traitée par le WebService correspondant, questionne la base de données s'il y a lieu et formule la réponse.
+		  \item La reponse est transmise au premier serveur, qui la retransmet à l'utilisateur.
+		  \item L'utilisateur reçoit la reponse.
+		\end{enumerate}
+	   \end{enumerate}
+      
+      \section{Le diagramme d'architecture}
+      Le diagramme d'architecture nous permettra de décrire comment les éléments du système interagissent entre eux depuis le moment où un utilisateur fait une requête jusqu'à l'obtention de sa réponse.
+
+	\begin{figure}[H]
+		\begin{center}
+		  \includegraphics[scale=0.7]{images/diagramArchitecture.png}
+		  \caption{Diagramme de séquences}
+		\end{center}
+	  \end{figure}
+	  
+       \section{Le diagramme de séquences}
       Le diagramme de séquence nous permettra de décrire comment les éléments du système interagissent entre eux et avec les acteurs :
       \begin{itemize}
 	\item Les objets au cœur d’un système interagissent en s’échangeant des messages ;
@@ -180,166 +286,276 @@
 
 	\begin{figure}[H]
 		\begin{center}
-		  \includegraphics[scale=0.7]{images/diagrammeSequence.png}
-		  \caption{Diagramme de séquences}
+		  \includegraphics[scale=0.7]{images/diagramSequence1.png}
+		  \caption{Diagramme de séquence 1: un gestionnaire souhaite consulter les diagrammes des statistiques financières}
 		\end{center}
 	  \end{figure}
 	  
-      \section{Le diagramme de déploiement}
-      Le diagramme de déploiement nous permettra de représenter l'utilisation de l'infrastructure physique par le système et la manière dont les composants du système sont répartis ainsi que leurs relations entre eux.
-      
-	\begin{figure}[H]
+	  \begin{figure}[H]
 		\begin{center}
-		  \includegraphics[scale=0.3]{images/diagrammeDeployement.png}
-		  \caption{Diagramme de déploiement}
+		  \includegraphics[scale=0.7, width=6cm]{images/diagramSequence2.png}
+		  \caption{Diagramme de séquence 2: un gestionnaire souhaite consulter les tableaux des opérations effectuées}
 		\end{center}
 	  \end{figure}
-
+	  
+	  \begin{figure}[H]
+		\begin{center}
+		  \includegraphics[scale=0.7]{images/diagramSequence3.png}
+		  \caption{Diagramme de séquence 3: un caissier souhaite enregistrer une opération effectuée}
+		\end{center}
+	  \end{figure}
+	  
+      \section{Le diagramme de classes}
+      Alors que le diagramme des cas d'utilisation nous montre le système du point de vue des acteurs, le diagramme de classes en montre la structure interne. Il permet de fournir une représentation abstraite des objets du système qui vont interagir pour réaliser les cas d'utilisation.
+      
+      \begin{figure}[H]
+		\begin{center}
+		  \includegraphics[scale=0.7]{images/diagramClass.png}
+		  \caption{Diagramme de classes}
+		\end{center}
+	  \end{figure}
+      
+      \section{Conclusion}
+      Ce chapitre nous a permis de retenir que l'analyse du système fait partie d'une chaîne de travail à réaliser dans la mise en place de l'application. Elle nous a également permis de déterminer à quoi servira l'application une fois déployée. Dans le prochain chapitre nous parlerons de la conception de l'application, une phase qui suit directement la phase d'analyse.
+      
     \chapter{Conception et réalisation}
       \section{Introduction}
-	La conception de logiciel met en œuvre un ensemble d'activités qui, à partir d'une demande d'informatisation d'un processus permettent la conception, l'écriture et la mise au point d'un logiciel jusqu'à sa livraison au demandeur. Ce chapitre nous permettra de décrire \textbf{comment} nous allons réaliser l'application et avec quelles \textbf{technologies}.
+	La conception de logiciel met en œuvre un ensemble d'activités qui, à partir d'une demande d'informatisation d'un processus permettent la conception, l'écriture et la mise au point d'un logiciel jusqu'à sa livraison au demandeur. Ce chapitre nous permettra de décrire \textbf{comment} nous allons réaliser l'application et avec quelles \textbf{technologies} ? \cite{diagramme_classes}
 	
-      \section{Architecture Orientée Service}
-	  \paragraph{}
-	    \textbf{\gls{SOA}} est une forme d'architecture de médiation qui est un modèle d'interaction applicative qui met en œuvre des services (composants logiciels) avec une forte cohérence interne (par l'utilisation d'un format d'échange pivot, XML ou JSON) et avec des couplages externes (par l'utilisation d'une couche d'interface interopérable, le plus souvent un service web).
-	    \\Une architecture orientée service se conforme à divers principes de gestion des services influençant directement le comportement intrinsèque d’une solution logicielle et le style de sa conception :
+      \section{Architectures utilisées}
+	\subsection{Architecture Orientée Service}
+	    \textbf{\gls{SOA}} est un modèle d'interaction applicative qui met en œuvre des services (composants logiciels) avec une forte cohérence interne (par l'utilisation d'un format d'échange pivot, \gls{XML} ou \gls{JSON}) et avec des couplages externes (par l'utilisation d'une couche d'interface interopérable, le plus souvent un service web).
+	    \\Une architecture orientée service se conforme à divers principes de gestion des services influençant directement le comportement intrinsèque d’une solution logicielle et le style de sa conception :\cite{soa}
 	      \begin{itemize}
 		\item L’encapsulation des services.
-		\item Le faible couplage des services avec la maintenance d’une relation réduisant les dépendances.
-		\item Le contrat de service adhérent à un accord de communication, collectivement défini avec un ou plusieurs documents de description.
-		\item L’abstraction des services dissimulant la logique du service à l’extérieur.
 		\item La réutilisation des services partageant la logique entre plusieurs services avec l’intention de promouvoir la réutilisation.
 		\item La composition des services.
 		\item L’autonomie des services.
 		\item L’optimisation des services.
 		\item La découverte des services depuis leur description extérieure.
 	      \end{itemize}
-	      L’architecture orientée service représente un moyen technique d’intégration des divers systèmes d’information de l’entreprise considérant chaque ressource informatique comme un service.
 	      
-	      \paragraph{}
-		La notion d’\textbf{interface} est importante dans l’approche orientée service. En effet, elle représente le point d’entrée unique vers les fonctionnalités de la solution logicielle et assure la communication grâce à l’échange de messages. Chaque message est porteur de la sémantique particulière à la solution logicielle. De plus ce message est rédigé dans un langage compréhensible aux deux parties en présence. Les services proposés d’une architecture agile décrivent la structure des messages qu’ils attendent du client.
-		\\Le \textbf{service} est un composant clef de l'architecture orientée services. Il consiste en une fonction ou fonctionnalité bien définie. C'est aussi un composant autonome qui ne dépend d’aucun contexte ou service externe. Il est divisé en opérations qui constituent autant d'actions spécifiques que le service peut réaliser. On peut faire un parallèle entre opérations et services d'une part, et méthodes et classes dans le mode orienté objet d'autre part.
+	 \subsection{Architecture Modèle-Vue-Contrôleur}
+	    Le patron d'architecture logicielle \gls{MVC} (en français modèle-vue-controlleur) est un modèle destiné à répondre aux besoins des applications interactives en séparant les problématiques liées aux différents composants au sein de leur architecture respective. Angular et Spring Boot intègre parfaitement l'architecture \gls{MVC}.\cite{mvc}
+	    Ce paradigme regroupe les fonctions nécessaires en trois catégories :
+	    \begin{itemize}
+	      \item un modèle (modèle de données);
+	      \item une vue (présentation, interface utilisateur);
+	      \item un contrôleur (logique de contrôle, gestion des événements, synchronisation).
+	    \end{itemize}
 
-	  \begin{figure}[H]
-	    \begin{center}
-	      \includegraphics[scale=0.6, width=10cm]{images/soa.JPG}
-	      \caption{Service Oriented Architecture (SOA)}
-	    \end{center}
-	  \end{figure}
-      
       \section{Technologies utilisées}
-	Pour arriver à réaliser la plate-forme, nous avons fait appel à plusieurs technologies selon les besoins. Nous détaillerons les \textbf{serveurs}, les \textbf{frameworks} avant de spécifier les \textbf{langages} informatiques qui vont avec ces derniers.
+	Pour arriver à réaliser la plate-forme, nous avons fait appel à plusieurs technologies selon les besoins. Après avoir spécifié le serveur Web que nous allons utiliser, nous détaillerons les frameworks avant de spécifier les langages informatiques qui vont avec ces derniers. Nous expliquerons aussi chaque choix.
 	
 	\subsection{Apache Tomcat}
-	  \textbf{Tomcat} est un serveur HTTP qui gère les servlets et les \gls{JSP}. Il nous a été d'une double utilité pour notre projet :
+	  \textbf{Tomcat} est un serveur \gls{HTTP} qui gère les servlets et les \gls{JSP}.\cite{apache}
+	  \\Il nous a été d'une double utilité pour notre projet :
 	  \begin{itemize}
 	    \item c'est l'environnement où a été déployé \textbf{Itaja Core}, la couche de l'application qui contient les WebServices chargés de communiquer avec la base de données;
-	    \item c'est également l'environnement où a été déployé la version compilée de l'application permettant l'accès depuis n'importe qual navigateur web
+	    \item c'est également l'environnement où a été déployé la version compilée de l'application permettant l'accès depuis n'importe quel navigateur web
 	  \end{itemize}
 	  
 	   \begin{figure}[H]
 	      \begin{center}
-		\includegraphics[scale=0.6, width=4cm]{images/logoApacheTomcat.jpg}
-		\caption{Logo de Bootstrap}
+		\includegraphics[scale=0.4, width=2cm]{images/logoApacheTomcat.jpg}
+		\caption{Logo de Apache Tomcat}
 	      \end{center}
 	    \end{figure}
 	  
-	\subsection{Angular}
-	  \textbf{Angular} est un framework libre écrit en \gls{JS} par Google qui permet d'améliorer, au même titre que JQuery, la syntaxe de \gls{JS} et la productivité du développeur. Nous l'uitlisons parce qu'il est fondé sur l’extension du langage HTML par de nouvelles balises pour aboutir à une définition déclarative des pages web, par opposition à l’utilisation systématique de l’élément div​ et à la définition des éléments de présentation en JavaScript. Il permet au navigateur, une fois les données chargées, de ne plus avoir à se connecter au serveur avant la navigation entre les différentes pages de l'application.
+	\subsection{Spring Boot}
+	  \textbf{Spring} est un framework libre pour construire et définir l'infrastructure d'une application java, dont il facilite le développement et les tests..\cite{spring}
+	  \\Il nous a facilité le développeement le 'Itaja-Core', la partie applicative de Itaja qui constitue le pool de WebServices chargés de communiquer avec la base de données et de répondre aux différentes requêtes des utilisateurs.
 	  
 	  \begin{figure}[H]
 	    \begin{center}
-	      \includegraphics[scale=0.6, width=3cm]{images/logoAngular.png}
+	      \includegraphics[scale=0.3, width=2cm]{images/logoSpringBoot.png}
+	      \caption{Logo de Spring Boot}
+	    \end{center}
+	  \end{figure}
+	  
+	\subsection{Angular}
+	  \textbf{Angular} est un framework libre écrit en \gls{JS} par Google qui permet d'améliorer la syntaxe de \gls{JS}. Il étend le \gls{HTML} pour le rendre dynamique, et permet de développer ses propres balises et attributs \gls{HTML}. Il permet d'apporter un aspect applicatif au front-office, et ne se limite plus au simple fait ajouter de animations au \gls{DOM}.\cite{angular}
+	  \\Nous l'avons utilisé pour réaliser la partie front, c'est-à-dire la vue ou l'interface utilisateur. Il était particulièrement intéressant car il permet au navigateur, une fois les données chargées, de ne plus avoir à se connecter au serveur avant la navigation entre les différentes pages de l'application. Cela réduit la consommation des données et permet aux utilisateurs de réaliser des économies.
+	  
+	  \begin{figure}[H]
+	    \begin{center}
+	      \includegraphics[scale=0.3, width=1cm]{images/logoAngular.png}
 	      \caption{Logo de Angular}
 	    \end{center}
 	  \end{figure}
 	  
-	  \subsection{TypeScript}
-	    \textbf{TypeScript} est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Le code TypeScript est transcompilé en JavaScript, pouvant ainsi être interprété par n'importe quel navigateur web ou moteur JavaScript. Il est utilisé parce qu'il est typé et orienté objet; ce qui s'intègre dans un style général de programmation.
-	    
-	     \begin{figure}[H]
-	      \begin{center}
-		\includegraphics[scale=0.6, width=3cm]{images/logoTypeScript.png}
-		\caption{Logo de TypeScript}
-	      \end{center}
-	    \end{figure}
-	    
-	  \subsection{Bootstrap}
-	    \textbf{Bootstrap} est une collection d'outils utile à la création du design (graphisme, animation et interactions avec la page dans le navigateur etc...) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. Il a le mérite de donner de la beauté et du goût nos pages Webs.
+	\subsection{Bootstrap}
+	    \textbf{Bootstrap} est une collection d'outils utile à la création du design (graphisme, animation et interactions avec la page dans le navigateur etc...) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option.\cite{bootstrap}
+	    \\Il a le mérite dans notre projet de donner de la beauté et du goût nos pages Webs.
 	    
 	    \begin{figure}[H]
 	      \begin{center}
-		\includegraphics[scale=0.6, width=4cm]{images/logoBootstrap.png}
+		\includegraphics[scale=0.4, width=2cm]{images/logoBootstrap.png}
 		\caption{Logo de Bootstrap}
 	      \end{center}
 	    \end{figure}
 	  
+	  \subsection{Groovy}
+	    \textbf{Groovy} Groovy est un langage de programmation orienté objet destiné à la plate-forme Java et lui constitue également une alternative. Il peut utiliser les bibliothèques Java et être utilisé dans des classes Java.\cite{groovy}
+	    \\Il est utilisé parce qu'il est typé et orienté objet tout comme le Java; ce qui s'intègre dans un style général de programmation. Il est compris par Spring Boot et nous a permis de réaliser les WebServices.
+	    
+	     \begin{figure}[H]
+	      \begin{center}
+		\includegraphics[scale=0.3, width=2cm]{images/logoGroovy.png}
+		\caption{Logo de Groovy}
+	      \end{center}
+	    \end{figure}
+	    
+	  \subsection{TypeScript}
+	    \textbf{TypeScript} est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Le code TypeScript est transcompilé en JavaScript, pouvant ainsi être interprété par n'importe quel navigateur web ou moteur JavaScript.\cite{typeScript}
+	    \\Il est utilisé parce qu'il est typé et orienté objet tout comme le Java; ce qui s'intègre dans un style général de programmation.
+	    
+	     \begin{figure}[H]
+	      \begin{center}
+		\includegraphics[scale=0.2, width=1cm]{images/logoTypeScript.png}
+		\caption{Logo de TypeScript}
+	      \end{center}
+	    \end{figure}
+	    
+	    \subsection{HTML}
+	      \textbf{\gls{HTML}} est le format de données conçu pour représenter les pages Web. C'est un langage de balisage permettant d'écrire l'hypertexte, d'où son nom. Il permet de structurer semantiquement et de mettre en forme le contenu des pages, d'inclure des ressources multimédias dont les images, des formulaires de saisie et des programmes informatiques.
+	      \\Le couple \gls{HTML} et \gls{CSS} est indispensable pour tout développement Web.\cite{html}
+	      
+	      \begin{figure}[H]
+		\begin{center}
+		  \includegraphics[scale=0.3, width=1cm]{images/logoHtml.png}
+		  \caption{Logo de HTML5}
+		\end{center}
+	      \end{figure}
+
+
+	  \subsection{CSS}
+	    \textbf{\gls{CSS}} est un langage qui permet de gérer la présentation d'une page Web. Les styles permettent de définir des règles appliquées à un ou plusieurs documents \gls{HTML}. Ces règles portent sur le positionnement des éléments, l'alignement, les polices de caractères, les couleurs, les marges et espacements, les bordures, les images de fond, etc...\cite{css}
+	    
+	    \begin{figure}[H]
+	      \begin{center}
+		\includegraphics[scale=0.3, width=1cm]{images/logoCss.png}
+		\caption{Logo de CSS3}
+	      \end{center}
+	    \end{figure}
+
+	  \subsection{UML}
+	    Le Langage de Modélisation Unifiée, de l'anglais \textbf{UML}, est un langage de modélisation graphique à base de pictogrammes conçu pour fournir une méthode normalisée pour visualiser la conception d'un système. Il est couramment utilisé dans le développement logiciel et en conception orientée object.\cite{uml}
+	    \\Ce langage nous a permis de construire les différents diagrammes pour la modélisation de la plate-forme.
+	    
+	    \begin{figure}[H]
+	      \begin{center}
+		\includegraphics[scale=0.4, width=2cm]{images/logoUml.png}
+		\caption{Logo de UML}
+	      \end{center}
+	    \end{figure}
+	    
 	  \section{Environnement technique}
 	  \subsection{Méthodologie : Agile - SCRUM}
 	    \textbf{Agile} est une méthode de développement informatique permettant de concevoir des logiciels en impliquant au maximum le client, ce qui permet une grande réactivité à ses demandes. Elles visent la satisfaction réelle du besoin du client, et non d'un contrat établi préalablement.
-	    \\\textbf{Scrum} est un schéma d’organisation qui s’axe autour de petits sprints durant lesquels l’équipe arrive à développer des produits complexes tout en enchaînant les tâches quotidiennes. Pour accompagner les sprints, l’équipe se doit de suivre quelques rituels à savoir des réunions de planification de projet, des rétrospectives de ce qui a été fait ou non, etc.).
+	    \paragraph{}
+	    \textbf{Scrum} est un schéma d’organisation qui s’axe autour de petits sprints durant lesquels l’équipe arrive à développer des produits complexes tout en enchaînant les tâches quotidiennes. Pour accompagner les sprints, l’équipe se doit de suivre quelques rituels à savoir des réunions de planification de projet, des rétrospectives de ce qui a été fait ou non, etc).\cite{agile_scrum}
 	    \\Dans le cadre de notre projet, nous avons fait des sprints de une semaine chacun et organisons les réunions chaque matin à une heure convenue (9h).
 	 
-	  \subsection{Outils projet}
+	  \begin{figure}[H]
+	    \begin{center}
+	      \includegraphics[scale=1.3, width=15cm]{images/logoAgileScrum.png}
+	      \caption{Description de Scrum}
+	    \end{center}
+	  \end{figure}
+	  
+	  \subsection{Outils de projet}
 	    \begin{itemize}
 	      \item[\ding{42}] \textbf{G Suite}\\
-		\textbf{G Suite} est une suite d'outils et de logiciels de productivité de type Cloud computing et de groupware destinée aux professionnels, proposée par Google sous la forme d'un abonnement.
-		\\La suite inclut les applications Web de Google les plus courantes, comme \textbf{Gmail, Google Hangouts, Google Agenda, Google+, Google Drive, Google Docs, Sheets, Slides et Forms et Google Sites}. Elle inclut aussi des fonctionnalités répondant aux besoins des entreprises, comme les adresses de courrier électronique personnalisées, un espace de stockage de 30 Go pour les documents et les e-mails, ainsi qu'une assistance 24h/24, 7j/7 par téléphone et par messagerie électronique.
+		\textbf{G Suite} est une suite d'outils et de logiciels de productivité destinée aux professionnels, proposée par Google sous la forme d'un abonnement.
+		\\La suite inclut les applications Web de Google les plus courantes, comme \textbf{Gmail, Google Hangouts, Google Agenda, Google+, Google Drive, Google Docs, Sheets, Slides et Forms et Google Sites}. Elle inclut aussi des fonctionnalités répondant aux besoins des entreprises, comme les adresses de courrier électronique personnalisées, un espace de stockage de 30 Go pour les documents et les e-mails, ainsi qu'une assistance 24h/24, 7j/7 par téléphone et par messagerie électronique.\cite{g_suite}
+		\\Il nous permettait de réaliser les échanges et la sauvegarde des données au sein de l'entreprise.
+		
+		\begin{figure}[H]
+		  \begin{center}
+		    \includegraphics[scale=0.4, width=4cm]{images/logoGsuite.png}
+		    \caption{Logo de G Suite}
+		  \end{center}
+		\end{figure}
 
 	      \item[\ding{42}] \textbf{Jira}\\
-		\textbf{Jira} est un système de suivi de bugs, de gestion des incidents, et de gestion de projets développé par Atlassian. Les fonctions qu'offrent Jira et pour lesquelles nous l'avons utilisé sont:
+		\textbf{Jira} est un système de suivi de bugs, de gestion des incidents, et de gestion de projets développé par Atlassian.\cite{jira}
+		\\Les fonctions qu'offrent Jira et pour lesquelles nous l'avons utilisé sont:
 		\begin{itemize}
 		  \item[•] \textbf{Planification} : Jira nous permet de créer des user stories et des tickets, de planifier des sprints et d'affecter les tâches à l'ensemble de l'équipe de développement.
 		  \item[•] \textbf{Suivi} : Jira nous permet de définir des priorités et de bénéficier d'une visibilité totale pour discuter du travail de l'équipe dans son contexte.
 		  \item[•] \textbf{Génération des rapports} : Jira améliore les performances de l'équipe en exploitant en temps réel les données visuelles des rapports.
 		\end{itemize}
+		
+		\begin{figure}[H]
+		  \begin{center}
+		    \includegraphics[scale=0.4, width=2cm]{images/logoJira.png}
+		    \caption{Logo de Jira}
+		  \end{center}
+		\end{figure}
      
 	      \item[\ding{42}] \textbf{Slack}\\
-		\textbf{Slack} est une plateforme qui centralise les flux de communication. C'est un espace de travail numérique qui s'est placé au cœur de l'organisation et qui, en interconnectant toutes ses ressources (humaines ou techniques), nous permet de faire des gains de productivité. Une équipe Slack se compose des personnes suivantes :
-		\begin{itemize}
-		  \item Le propriétaire de l'équipe
-		  \item Les administrateurs
-		  \item Les collaborateurs
-		  \item Les invités
-		\end{itemize}
+		\textbf{Slack} est une plateforme qui centralise les flux de communication. C'est un espace de travail numérique qui s'est placé au cœur de l'organisation et qui, en interconnectant toutes ses ressources (humaines ou techniques), nous permet de faire des gains de productivité. Une équipe Slack se compose du propriétaire de l'équipe, des administrateurs, des collaborateurs et des invités\cite{slack}
+		
+		\begin{figure}[H]
+		  \begin{center}
+		    \includegraphics[scale=0.01, width=1cm]{images/logoSlack.png}
+		    \caption{Logo de Slack}
+		  \end{center}
+		\end{figure}
+		
 	  \end{itemize}
 	  
 	  \subsection{Intégration continue : Jenkins}
-	    \textbf{Jenkins} est un outil open source d'intégration continue, écrit en Java, et qui fonctionne dans un conteneur de servlets tel qu’Apache Tomcat, ou en mode autonome avec son propre serveur Web embarqué. Les fonctions qu'offrent Jenkins et pour lesquelles nous l'avons utilisé sont:
+	    \textbf{Jenkins} est un outil open source d'intégration continue, écrit en Java, et qui fonctionne dans un conteneur de servlets tel qu’Apache Tomcat, ou en mode autonome avec son propre serveur Web embarqué. Les fonctions qu'offrent Jenkins et pour lesquelles nous l'avons utilisé sont:\cite{jenkins}
 		\begin{itemize}
 		  \item[•] \textbf{Centralisation} : Jenkins permet à l'équipe de bénéficier d'informations communes.
 		  \item[•] \textbf{Automatisation} : Jenkins permet d'effectuer l'ensemble des phases de productions (compilation, tests, 	déploiement...) sans ou avec très peu d'intervention humaine.
 		  \item[•] \textbf{Historisation} : Jenkins permet de garder les productions précédentes et de voir l'évolution des productions.
 		\end{itemize}
+		
+	  \begin{figure}[H]
+	    \begin{center}
+	      \includegraphics[scale=0.4, width=2cm]{images/logoJenkins.jpg}
+	      \caption{Logo de Jenkins}
+	    \end{center}
+	  \end{figure}
 	    
 	  \subsection{Gestionnaire de code source : Bitbucket avec le Git}
 	  \textbf{Bitbucket} est un outil qui nous a permi de stocker l'ensemble des fichiers de notre projet tout en conservant la chronologie de toutes les modifications qui ont été effectuées dessus. Il permet notamment de retrouver les différentes versions d'un lot de fichiers connexes et de servir de repo source à l'intégration continue par Jenkins.
 	  
-      \section{Réalisation}
-	Pour cette section, nous avons choisi de présenter trois captures d'écran de l'application. Vous trouverez une large gamme des captures d'écran dans l'annexe.
-	\subsection{Capture de la page du dashboard}
-	\begin{figure}[H]
-	\begin{center}
-	\includegraphics[scale=1, width=18cm]{images/login.png}
-	\caption{Page de connexion}
-	\end{center}
-	\end{figure}
-\subsection{Capture de création de cours }
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=1, width=18cm]{images/cours_1.png}
-\caption{Page de création de cours}
-\end{center}
-\end{figure}
-%%conclusion
-\lhead[]{} \rhead[]{} \chead[]{}
-\include{conclusion/conclusion}
+	  \begin{figure}[H]
+	    \begin{center}
+	      \includegraphics[scale=0.4, width=3cm]{images/logoBitbucket.png}
+	      \caption{Logo de Bitbucket}
+	    \end{center}
+	  \end{figure}
+	  
+      \section{Réalisation et conditions de déploiement}
+	\paragraph{}
+	  Nous avons pris une large gamme des captures d'écran lors de la réalisation de l'application. Ces images vous seront présentées dans l'annexe.
+	
+	\paragraph{}
+	  Pour que l'application puisse être utilisée par les masses, il faut la déployer en production. Pour ce faire, il nous fallait un ordinateur accessible par des clients (un serveur) équipé de :
+	    \begin{itemize}
+	      \item Un système d'exploitation UNIX
+	      \item Un serveur Web Apache Tomcat,
+	      \item Mysql Server
+	    \end{itemize}
+	  
+      \section{Conclusion}
+	Tout au long de ce chapitre, nous avons d'abord parcouru les technologies qui nous ont permis de réaliser notre application. Ensuite nous avons pu constaté que pour déployer notre application en production, il nous faut satisfaire certaines exigences techniques tant en matériels qu'en logiciels.
+	
+  %%conclusion
+  \lhead[]{} \rhead[]{} \chead[]{}
+  \include{conclusion/conclusion}
 
-%%biblio
-\newpage
-\include{biblio/biblio}
-%
+  %%biblio
+  \newpage
+  \include{biblio/biblio}
+  %
 
-\appendix
-\include{annexe/annexe}
-\end{document}
+  \appendix
+  \include{annexe/annexe}
+  
+ \end{document}
